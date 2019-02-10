@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @yj1399 Sign out
-23
-252 60 ArunMichaelDsouza/tensorflow-image-detection
- Code  Issues 4  Pull requests 0  Projects 0  Wiki  Insights
-tensorflow-image-detection/classify.py
-90d5422  on 13 Mar 2018
-@ArunMichaelDsouza ArunMichaelDsouza File dialog support added with PR #3
-@ArunMichaelDsouza @royalbhati
-    
-46 lines (34 sloc)  1.43 KB
 import tensorflow as tf
 import sys
 import os
@@ -62,16 +44,4 @@ if image_path:
             human_string = label_lines[node_id]
             score = predictions[0][node_id]
             print('%s (score = %.5f)' % (human_string, score))
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
+
