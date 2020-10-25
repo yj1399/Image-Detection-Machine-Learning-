@@ -22,7 +22,7 @@ from tensorflow.python.platform import gfile
 from tensorflow.python.util import compat
 
 FLAGS = None
-
+#second commit
 # These are all parameters that are tied to the particular model architecture
 # we're using for Inception v3. These include things like tensor names and their
 # sizes. If you want to adapt this script to work with another model, you will
